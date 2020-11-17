@@ -372,6 +372,27 @@ footer{
 	padding-bottom: 0;
 }
 
+footer .textf{
+	padding-left: 2%;
+	font-size: 1em;
+}
+
+footer .textfi{
+	font-size: 1.3em;
+	padding-right: 2%;
+}
+
+footer .imgcont{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	margin: 10px 0;
+
+}
+
+footer h5{
+	font-size: 0.8em;
+}
 
 footer p{
 	font-size: 1em;
