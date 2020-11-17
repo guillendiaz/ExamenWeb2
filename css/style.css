@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@300;700&display=swap');
+
+:root{
+	--color-principal: #ff5f6d;
+	--color-boton-hover: #f75160;
+	--color-naranja:  #3ce2ad;
+	--color-negro: #363636;
+	--color-general: #999;
+	--color-gris: #f4f4f4;
+	--color-azul: #0078aa;
+	
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+.header-area.sticky {
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky{
+
+	background-color: #fff !important;
+}
+
+.header-area.sticky .navbar-light .navbar-nav .nav-link{
+	color: var(--color-naranja);
+}
+.header-area.sticky .navbar-light .navbar-nav .active .nav-link{
+	color: var(--color-naranja);
+}
+.header-area.sticky .navbar-light .navbar-brand {
+	color: var(--color-naranja);
+}
+
+nav .navtitle{
+	font-family: 'Roboto';
+	font-size: 10px;
+}
+
+nav .navsub{
+	font-family: 'Montserrat';
+	font-size: 15px;
+
+}
+
+nav i{
+	margin: 0 1%;
+
+}
+
+#hero{
+	padding: 5% 0;
+	text-align: left;
+	background-image: url("../img/bg-hero.jpg");
+	background-size: cover;
+	background-position: top;
+  	background-repeat: no-repeat;
+	height: 100%vh;
+	color: white;
+}
+
+#hero h1{
+	font-family: 'Montserrat';
+	font-size: 3em;
+	font-weight: 700;
+	color: var(--color-negro);
+	padding-top: 15%;
+}
+
+#hero h2{
+	font-family: 'Roboto';
+	color: var(--color-negro);
+	font-size: 1em;
+	padding: 1% 0;
+}
+
+#hero .icontitle{
+	padding: 1.5% 1.5%;
+	margin: 5% 1%;
+	border-radius: 100%;
+	font-size: 1.7em;
+	background-color: var(--color-naranja); 
+}
+
+#bar .texthero{
+	text-align: left;
+	margin: 0 0;
+	width: 33.33%;
+	padding: 5% 5%;
+	background-color: #A8F5EA;
+	border-radius: 4%;
+}
+
+.texthero h3{
+	color: var(--color-negro);
+	font-size: 1.3em;
+	padding: 10% 0;
+}
+
+#bar .divtitle{
+	color: var(--color-azul);
+	font-size: 1.8em;
+} 
+
+#about{
+	padding: 10% 10%;
+}
+
+#about h2{
+	font-family: 'Roboto';
+	font-size: 2.5em;
+}
+
+#about h3{
+	padding: 5% 0;
+	font-family: 'Roboto';
+	font-size: 1em;
+	color: var(--color-azul);
+}
+
+#about p{
+	padding: 5% 0;
+	font-family: 'Roboto';
+	font-size: 1em;
+}
+
+#departments{
+	padding: 10% 0;
+	background-image: url("../img/bg-rectangle.jpg");
+	background-size: cover;
+	background-position: top;
+  	background-repeat: no-repeat;
+}
+
+#departments .row{
+	font-family: 'Roboto';
+	border-radius: 4%;
+	padding: 10% 10%;
+	background-color: #fff;
+}
+
+#departments .row h2{
+	font-size: 1.5em;
+	padding: 5% 0;
+	font-weight: 700;
+}
+
+#departments .row p{
+	font-size: 1em;
+	padding: 5% 0;
+}
+
+#depjenna{
+	font-family: 'Roboto';
+	padding-top: 10%;
+}
+
+#depjenna h2{
+	font-size: 3em;
+	font-weight: 700;
+	padding: 5% 0;
+}
+
+#depjenna h3{
+	font-size: 1em;
+	color: var(--color-azul);
+}
+
+#depjenna p{
+	font-size: 1em;
+	padding: 5% 0;
+}
+
+#depjenna .btn-light{
+	background-color: var(--color-naranja);
+	font-size: 1em;
+	border-radius: 70px;
+	font-family: 'Roboto';
+	color: #fff;
+	padding: 4% 10%;
+}
+
+#depcont{
+	background-color: var(--color-gris);
+	padding: 5% 0;
+	text-align: center;
+}
+
+#depcont h2{
+	padding: 5% 0;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: var(--color-negro);
+	font-size: 4em;
+	border-bottom: 1px var(--color-naranja) solid;
+}
+
+#depcont h5{
+	font-family: 'Roboto';
+	color: var(--color-negro);
+	font-size: 1em;
+}
+
+#depspecial{
+	padding: 10% 0;
+	background-image: url("../img/bg-offers.jpg");
+	background-size: cover;
+	background-position: top;
+  	background-repeat: no-repeat;
+  	text-align: center;
+}
+
+#depspecial .deptitle{
+	font-family: 'Roboto';
+	font-size: 2.6em;
+	font-weight: 700;
+}
+
+#depspecial h5{
+	font-family: 'Roboto';
+	font-size: 1em;
+	padding-bottom: 5%;
+}
+
+.deptexts{
+	background-color: #A8F5EA;
+	padding: 5% 10%;
+	border-radius: 1%;
+}
+
+.deptexts h2{
+	font-family: 'Roboto';
+	font-size: 1.6em;
+	font-weight: 700;
+}
+
+.deptexts h3{
+	font-family: 'Roboto';
+	font-size: 3em;
+	font-weight: 700;
+}
+
+.deptexts h4{
+	padding: 3% 0;
+	font-family: 'Roboto';
+	font-size: 1em;
+	padding-bottom: 10%;
+}
+
+.deptexts p{
+	padding: 5% 0;
+	font-family: 'Roboto';
+	font-size: 1em;
+}
+
+.deptexts .btn-light{
+	border-radius: 50px;
+	font-size: 1em;
+	margin: 10% 0;
+	padding: 10% 15%;
+}
+
+#faq{
+	padding: 10% 0;
+}
+
+#faq h2{
+	font-family: 'Roboto';
+	font-size: 2.5em;
+}
+
+#faq h3{
+	font-family: 'Roboto';
+	font-size: 2em;
+	font-weight: 700;
+}
+
+#faq .btn-light{
+	color: #fff;
+	background-color: var(--color-naranja);
+	border-radius: 40px;
+	font-size: 1em;
+	margin: 10% 0;
+	padding: 5% 10%;
+}
+
+#contact{
+	background-color: var(--color-gris);
+}
+
+#contact .row{
+	padding: 5% 0;
+}
+
+#contact h2{
+	font-size: 1.3em;
+}
+
+#contact h4{
+	font-size: 0.9em;
+	font-weight: 300;
+}
+
+#contact i{
+	padding-right: 5%;
+	color: var(--color-naranja);
+	font-size: 2em;
+}
+
+#contactma{
+	padding: 10% 0;
+}
+
+.matext{
+	background-image: url("../img/bg-rectangle.jpg");
+	background-size: cover;
+	background-position: top;
+  	background-repeat: no-repeat;
+	padding: 10% 2%;
+}
+
+.matextc{
+	padding: 10% 2%;
+}
+
+.matextc .btn-light{
+	color: #fff;
+	background-color: var(--color-naranja);
+	border-radius: 40px;
+	font-size: 1em;
+	margin: 10% 0;
+	padding: 5% 10%;
+}
+
+.matext img{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+
+}
+
+#contactma h2{
+	padding: 10% 0;
+	font-family: 'Roboto';
+	font-size: 1.5em;
+}
+
+#contactma h3{
+	font-family: 'Roboto';
+	font-size: 1em;
+}
+
+#contactma p{
+	padding: 10% 0;
+	font-family: 'Roboto';
+	font-size: 1em;
+}
+footer{
+	font-family: 'Roboto';
+	color: #bbb;
+	padding: 5% 0;
+	text-align: left;
+	background-color:  #1c1c1c;
+	padding-bottom: 0;
+}
+
+
+footer p{
+	font-size: 1em;
+}
+
+footer .copy{
+	text-align: center;
+	padding: 2% 0;
+	color: #bbb;
+	background-color: var(--color-negro);
+}
